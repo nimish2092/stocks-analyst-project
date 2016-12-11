@@ -299,8 +299,8 @@
 
 
         function fetchData(companyCode, containerID){
-            var query = 'http://marketdata.websol.barchart.com/getHistory.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbol='+ companyCode + '&type=daily&startDate=20151125';
-            var liveQuery = 'http://marketdata.websol.barchart.com/getQuote.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbols=' + companyCode;
+            var query = 'https://marketdata.websol.barchart.com/getHistory.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbol='+ companyCode + '&type=daily&startDate=20151125';
+            var liveQuery = 'https://marketdata.websol.barchart.com/getQuote.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbols=' + companyCode;
 
             var liveChartData = [];
             var data;
@@ -322,7 +322,7 @@
         function requestData(companyCode) {
 
             console.log(companyCode);
-            var baseURL = 'http://marketdata.websol.barchart.com/getQuote.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbols=';
+            var baseURL = 'https://marketdata.websol.barchart.com/getQuote.json?key=faa288c5d3a32496a78ffd1b59c2e349&symbols=';
             var query = baseURL + companyCode;
             console.log(query);
             var req = new XMLHttpRequest();
@@ -454,7 +454,7 @@
 
         $("#stockmaps_button").click(function () {
             console.log("Maps Page requested");
-            window.location.href = "http://localhost:3000/map";
+            window.location.href = "/map";
         });
 
         $("#contact_button").click(function () {
