@@ -69,35 +69,35 @@ body {
     background-color: #333333;
     border-top: 0.5px solid #2b908f;
 }
-    .searchBody{
-        position: static;
-        width:100%;
-        height: 12%;
-        /*border: 1px solid red;*/
-        background-color: #333333;
-    }
-    .searchEngine{
-        width: 50%;
-        height: 100%;
-        /*border: 1px solid green;*/
-        margin: 0 auto;
-    }
-    video { 
-      -webkit-transform: scaleX(2.895); 
-      -moz-transform: scaleX(2.895);
-      height: 62%;
-      position: absolute;
-      top:28%;
-      z-index: -1;
-  }
+.searchBody{
+    position: static;
+    width:100%;
+    /*height: 12%;*/
+    /*border: 1px solid red;*/
+    background-color: #333333;
+}
+.searchEngine{
+    width: 50%;
+    /*height: 100%;*/
+    /*border: 1px solid green;*/
+    margin: 0 auto;
+}
+video { 
+  -webkit-transform: scaleX(2.895); 
+  -moz-transform: scaleX(2.895);
+  /*height: 62%;*/
+  position: absolute;
+  top:28%;
+  z-index: -1;
+}
   a:active {
     color: white;
 }
 #search {
-    height: 70%;
+    /*height: 70%;*/
     width: 70%;
-    margin-top: 0.5%;
-    padding-left: 2%;
+    margin: 2% 0;
+    /*padding-left: 2%;*/
     font-size: 1.5em;
     color: #2b908f;
     background-color: #BDBDBD;
@@ -105,8 +105,9 @@ body {
 }
 
 #homepage{
-    height: 62%;
+    /*height: 62%;*/
     width: 100%;
+    background-image: url("../image/mochaGrunge.png");
     /*border: 2px solid blue;*/
 }
 .panel-body {
@@ -124,9 +125,9 @@ body {
     font-family:'Handlee';
     background-color: #BDBDBD;
     color: #2b908f;
-    height: 70%;
+    /*height: 70%;*/
     width: 20%;
-    font-size: 1.5em;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -137,10 +138,18 @@ body {
 }
 
 .charts{
-    display: inline-block;
-    width:30%;
-    margin:1.5%;
-    height: 80%;
+    display: block;
+    width:80%;
+    margin: 2% 10%;
+    /*height: 30%;*/
+}
+@media only screen and (min-width: 768px) {
+    .charts{
+        display: inline-block;
+        width:30%;
+        margin:1.5%;
+        /*height: 80%;*/
+    }
 }
 #liveChartButton{
     color:#2b908f;
@@ -212,7 +221,7 @@ body {
     color: #2b908f;
     text-align: center;
     background-color: #333333;
-    height:10%;
+    /*height:10%;*/
     width: 100%;
     margin-top: 0;
 }
@@ -228,7 +237,7 @@ body {
 
 .desc{
     font-size: 16px;
-    color: #2b908f;
+    color: #333333;
     font-weight: bold;
     /*border: 2px solid white;*/
     text-align: center;

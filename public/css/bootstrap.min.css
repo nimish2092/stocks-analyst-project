@@ -4786,7 +4786,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     background-color: #333333;
     color: #2b908f;
     font-family:'Handlee';
-    height: 6%;
+    /*height: 6%;*/
 }
 .breadcrumb>li {
     display: inline-block
