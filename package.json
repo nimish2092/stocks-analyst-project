@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "cheerio": "latest",
+    "compression": "^1.6.2",
     "express": "^4.14.0",
     "request": "^2.79.0",
     "table-scraper": "0.0.2"

@@ -1,5 +1,5 @@
 "use strict";
-
+var compression = require('compression');
 const express = require('express');
 const app = express();
 const request = require('request');
@@ -8,6 +8,7 @@ var scraper = require('table-scraper');
 app.set('port', process.env.PORT || 3000);
 var url = "";
 
+app.use(compression());
 app.use(express.static('public'));
 
 app.get('/', function(req, res){
