@@ -36,3 +36,45 @@ The stocks analyst project is deployed on heroku and you can check it out here: 
 * Node js
 * Express js
 * Cherio js
+
+## Screenshots
+1] The homepage
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/homepage.png "Homepage")
+
+2] The stock index chart
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/search.png "Search page")
+
+3] Realtime data plotting
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/live.png "Live page")
+
+4] The Global Stock Index Map
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/map.png "Map page")
+
+5] The Currency tracker
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/currency.png "Currency page")
+
+6] The Leader board
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/leaderboard.png "Leaderboard page")
+
+7] Localization
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/localization.png "Localization")
+
+## Few Screenshots of Responsive UI
+* Screenshots taken on a cell-phone with 4.7 inch display
+
+1] The homepage
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/responsive/Screenshot_2016-12-11-02-29-42.png "Homepage")
+
+2] The stock index chart
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/responsive/Screenshot_2016-12-11-02-30-10.png "Search page")
+
+3] The Leader board
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/responsive/Screenshot_2016-12-11-02-30-18.png "Leaderboard page")
+
+4] The Currency tracker
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/responsive/Screenshot_2016-12-11-02-30-24.png "Currency page")
+
+5] The Global Stock Index Map
+![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/responsive/Screenshot_2016-12-11-02-30-44.png "Map page")
+
+
