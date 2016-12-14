@@ -37,6 +37,10 @@ The stocks analyst project is deployed on heroku and you can check it out here: 
 * Express js
 * Cherio js
 
+## Important Stuff (Not really)
+* I'M NOT RESPONSIBLE FOR ANY DAMANGES - INCLUDING, BUT NOT LIMITED TO, FINANCIAL LOSS THAT OCCURS WITH THE USE OF THIS APP
+* This code is released under the WTFPL (Do What The Fuck You Want to Public License) license.
+
 ## Screenshots
 1] The homepage
 ![alt text](https://github.com/nimish2092/stocks-analyst-project/blob/master/screenshots/homepage.png "Homepage")
